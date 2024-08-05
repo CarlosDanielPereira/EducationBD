@@ -1,4 +1,4 @@
- #Site sobre o servidor de Minecraft “IFTMundo”
+ # Site sobre o servidor de Minecraft “IFTMundo”
 
  Um grupo de amigos do IFTM fundaram um projeto educativo que utiliza o jogo Minecraft para aplicação de conceitos na educação.
  Eles decidiram criar um servidor e contratou vocês para desenvolver um site sobre o projeto. O site deve ter 3 páginas.
