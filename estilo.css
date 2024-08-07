@@ -6,14 +6,27 @@
     #anuncio-server{
         padding-left: 50px;
     }
-    #imagems-button1{
-        width: 200px;
-        height: 200px;
-        display: flex;
+    div{
+        display: inline-block;
     }
-    #imagems-button2{
-        width: 200px;
-        height: 200px;
+    #comecar{
+        border: solid 5px black;
+        width: 30%;
+    }
+    #conectar{
+        border: solid 5px black;
+        width: 30%;
+    }
+    .tecnica{
         display: flex;
+        width: 30%;
+    }
+    #suporte{
+        border: solid 5px black;
+        width: 30%;
+    }
+    #download{
+        border: solid 5px black;
+        width: 30%;
     }
 }
