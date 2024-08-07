@@ -1,0 +1,19 @@
+*{
+    .titulo-principal{
+        text-align: center;
+        font-size: 30px;
+    }
+    #anuncio-server{
+        padding-left: 50px;
+    }
+    #imagems-button1{
+        width: 200px;
+        height: 200px;
+        display: flex;
+    }
+    #imagems-button2{
+        width: 200px;
+        height: 200px;
+        display: flex;
+    }
+}
