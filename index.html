@@ -8,59 +8,77 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <div class="titulo-principal">
+
+    <!--Cabeçalho-->
+
+    <div class="cabecalho">
         <h1>Bedrock Education</h1>
-    </div>
-    <img id="anuncio-server" src="imagem/teste-img.jpg" alt="Imagem-teste">
-
-    <div class="perguntas">
-        <h2>O que e Minecraft?</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aliquid cumque exercitationem dolore nostrum dignissimos distinctio porro blanditiis, corporis ullam maiores tenetur eius aperiam pariatur fugit ipsa veritatis obcaecati officiis.</p>
-
-        <h2>Como ele pode ser util a Educação?</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores minus dicta perspiciatis nostrum debitis molestiae dolorem nemo illo dolorum aspernatur ad voluptates, quia veniam tempora, impedit, voluptate neque dignissimos repellat.</p>
-
-        <h2>Como Funciona</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas culpa architecto, nesciunt ut odio incidunt. Sed veniam reiciendis ipsum expedita! Voluptatibus sequi id nostrum in nisi minus sapiente quidem laudantium?</p>
-
-        <h2>Perguntas Frequentes</h2>
-        <p>Pergunta 1</p>
-        <p>pergunta 2</p>
+        <a href="cadastro.html"><img src="imagem/UserIcon.png" alt="loginImagem"></a>
     </div>
 
-    <h3>Comece agora seus estudos com Bedrock Education</h3>
-    <p>Voce pode encontrar diversos conteudos aqui, nao perca tempo, comece seus estudos aqui.</p>
+    <!--Anuncio sobre o grupo-->
 
-    <div class="opcoes">
-        <div id="ensino">
-            <div id="comecar">
-                <h2>Comecar</h2>
-                <p>tenha acesso a conteudos rapidos e facil</p>
-                <p><a href="comecar.html">saiba mais</a></p>
+    <div class="anuncio">
+        <h2>Grupo</h2>
+        <p>Acesse nosso Grupo para tirar duvidas, interagir com outras pessoas e muito mais.</p>
+        <img src="" alt="ImagemAnuncio">
+        <a href="https://www.facebook.com/groups/232685223605349">Conectar</a>
+    </div> <br>
+
+    <!--Perguntas com respostas-->
+
+    <ul class="perguntas">
+        <li>
+            <input type="radio" name="perguntas" id="primeiro" checked>
+            <label for="primeiro">O que é Minicraft</label>
+            <div class="conteudo">
+                <p>Minecraft é um jogo de sandbox onde os jogadores exploram um mundo feito de blocos, coletam recursos, constroem estruturas e enfrentam criaturas. Oferece modos de jogo variados, como Sobrevivência, Criativo e Aventura, e permite jogo solo ou em multijogador.</p>
             </div>
-            <div id="conectar">
-                <h2>Cnectar</h2>
-                <p>conecte ao nosso Servidor do dscord e tire suas duvidas</p>
-                <p><a href="https://github.com/">entrar</a></p>
+        </li>
+        <li>
+            <input type="radio" name="perguntas" id="segundo">
+            <label for="segundo">Como ele pode ser util a educação</label>
+            <div class="conteudo">
+                <p>Minecraft é útil na educação porque permite aos alunos aplicar conceitos de matemática e história, trabalhar em equipe, e aprender programação de forma interativa e envolvente.</p>
             </div>
+        </li>
+    </ul>
+
+    <!--Quatro opções-->
+
+    <div class="explorar">
+        <div id="começar">
+            <h2>Começar</h2>
+            <img src="" alt="livroMinecraft">
+            <p>Pronto para começar a estudar? clique em saiba mais para ter acesso a todos os conteudos.</p>
+            <a href="materias.html">Saiba Mais</a>
         </div>
-        <div id="tecnica">
-            <div id="suporte">
-                <h2>Suporte Tecnico</h2>
-                <p>Qualquer problema que ouver relate</p>
-                <p><a href="suporte.html">saiba mais</a></p>
-            </div>
-            <div id="download">
-                <h2>Download</h2>
-                <p>Instale o Bedrock Education Agora mesmo!</p>
-                <p><a href="https://play.google.com/store/apps/details?id=me.pou.app&hl=pt_BR">Download</a></p>
-            </div>
+
+        <div id="conectar">
+            <h2>Conectar</h2>
+            <img src="" alt="redstoneMinecraft">
+            <p>Entre no nosso grupo para tirar duvidas, estudar com outras pessoas e muito mais.</p>
+            <a href="https://www.facebook.com/groups/232685223605349" target="_blank">Entrar</a>
+        </div>
+
+        <div id="suporte">
+            <h2>Suporte Técnico</h2>
+            <img src="" alt="picaretaMinecraft">
+            <p>Qualquer problema relate para ele seja resolvido o mais rapido possivel.</p>
+            <a href="https://help.minecraft.net/hc/en-us" target="_blank">Relatar</a>
+        </div>
+
+        <div id="download">
+            <h2>Download</h2>
+            <img src="" alt="totemMinecraft">
+            <p>Instale o nosso aplicativo para ter uma melhor interação.</p>
+            <a href="https://apps.microsoft.com/detail/9nblggh4r2r6?hl=pt-br&gl=BR" target="_blank">Instalar</a>
         </div>
     </div>
 
+    <!--Rodape do site-->
 
-    <footer><a href="creditos.html">Creditos</a><br><p>Nome da empresa <br>Contato suporte etc</p></footer>
+    <footer>&reg;Caramello'sInovations</footer>
 
-    
 </body>
 </html>

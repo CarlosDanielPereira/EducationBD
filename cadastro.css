@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('imagem/MinecraftFundo.webp') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cadastro{
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.cadastro h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.cadastro .caixa{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.caixa input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: whitesmoke;
+    padding: 20px 45px 20px 20px;
+}
+
+.caixa input::placeholder{
+    color: whitesmoke;
+}
+
+.cadastro .button{
+    width: 30%;
+    height: 45px;
+    background: whitesmoke;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
