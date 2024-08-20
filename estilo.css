@@ -13,6 +13,10 @@
 .cabecalho{
     display: flex;
     justify-content: space-between;
+    background-image: url("imagem/portal-end.jpg");
+    color: white;
+    height: 100px;
+    align-items: center;
 }
 
 #ft-perfil{
