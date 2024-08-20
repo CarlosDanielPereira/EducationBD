@@ -10,6 +10,15 @@
     width: 600px;
 }
 
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
+
+#ft-perfil{
+    height: 50px;
+}
+
 .perguntas li{/*Não mude nada aqui*/
     list-style: none;
     width: 100%;
