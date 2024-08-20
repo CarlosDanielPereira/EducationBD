@@ -11,6 +11,8 @@
 }
 
 .cabecalho{
+    padding-left: 15px;
+    padding-right: 15px;
     display: flex;
     justify-content: space-between;
     background-image: url("imagem/portal-end.jpg");
