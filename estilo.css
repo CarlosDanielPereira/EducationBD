@@ -5,9 +5,31 @@
     box-sizing: border-box;
 }
 
-.perguntas{/*Não mude nada aqui a não ser onde esta escrito*/
-    margin: 0;/*Mude aqui para mudar o posicionamento dos quadrados*/
-    width: 600px;
+.cabecalho, footer{
+    background-color: green;
+}
+
+.perguntas{
+    list-style: none;
+    width: 30%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+
+.txt-abrivel{
+    display: none;
+}
+
+.title:hover{
+    display: block;
+}
+
+.title:hover + .txt-abrivel{
+    display: block;
 }
 
 .cabecalho{
@@ -15,7 +37,6 @@
     padding-right: 15px;
     display: flex;
     justify-content: space-between;
-    background-image: url("imagem/portal-end.jpg");
     color: white;
     height: 100px;
     align-items: center;
@@ -25,50 +46,26 @@
     height: 50px;
 }
 
-.perguntas li{/*Não mude nada aqui*/
-    list-style: none;
-    width: 100%;
-    margin: 20px;
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
-                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
-}
-
-.perguntas li label{/*Não mude nada aqui a não ser onde esta escrito*/
+.explorar1{
     display: flex;
-    align-items: center;
-    padding: 10px;
-    font-size: 20px;/*Mude aqui para mudar o tamanho da letra*/
-    font-weight: 500;
-    cursor: pointer;
+    justify-content: center;
 }
 
-label::before{/*Não mude nada do que esta aqui*/
-    content: '+';
-    margin-right: 10px;
-    font-size: 24px;
-    font-weight: 600;
+#explorar2{
+    display: flex;
+    justify-content: center;
 }
 
-input[type="radio"]{/*Não mude nada do que esta aqui*/
-    display: none;
+.exp1{
+    width: 300px;
+    margin: 50px;
 }
 
-.perguntas .conteudo{/*Não mude nada aqui a não ser onde esta escrito*/
-    color: black;/*Mude aqui para mudar a cor da letra do conteudo*/
-    padding: 0 10px;
-    line-height: 26px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s, padding 0.5s;
+.exp2{
+    width: 300px;
+    margin: 50px;
 }
 
-.perguntas input[type="radio"]:checked + label + .conteudo{/*Não mude nada do que esta aqui*/
-    max-height: 400px;
-    padding: 10px 10px 20px;
-}
-
-.perguntas input[type="radio"]:checked + label::before{/*Não mude nada do que esta aqui*/
-    content: '-';
+.img{
+    width: 300px;
 }
