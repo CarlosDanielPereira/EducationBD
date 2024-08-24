@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 100px;
+    align-items: center;
+}
+
+.cabecalho, footer{
+    background-color: green;
+}
+ /*Links para mudar a página*/
+#links-pag{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.l-pag{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    margin-top: 0px;
+    padding: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+footer{
+    color: white;
+    background-color: green;
+    padding: 40px;
+    font-size: 16px;
+    text-align: center;
+}
