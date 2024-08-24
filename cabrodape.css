@@ -18,6 +18,12 @@
 .cabecalho, footer{
     background-color: green;
 }
+
+#imgtittle{
+    padding-top: 12px;
+    width: 650px;
+}
+
  /*Links para mudar a página*/
 #links-pag{
     display: flex;
