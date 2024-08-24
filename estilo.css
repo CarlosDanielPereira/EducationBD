@@ -5,13 +5,28 @@
     box-sizing: border-box;
 }
 
+#anuncio2{
+display: flex;
+justify-content: center;
+
+}
+
+#prin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#corpo{
+    width: 900px;
+}
+
 .cabecalho, footer{
     background-color: green;
 }
 
 .perguntas{
     list-style: none;
-    width: 30%;
     margin: 20px;
     padding: 10px;
     border-radius: 8px;
@@ -19,18 +34,13 @@
                 -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
 }
 
-
-.txt-abrivel{
-    display: none;
+#comopode{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
 
-.title:hover{
-    display: block;
-}
-
-.title:hover + .txt-abrivel{
-    display: block;
-}
 
 .cabecalho{
     padding-left: 15px;
@@ -46,7 +56,7 @@
     width: 900px;
     padding: 20px;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
 }
 
 #texto-grupo{
@@ -77,22 +87,22 @@
 
 .explorar1{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 #explorar2{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .exp1{
     width: 300px;
-    margin: 50px;
 }
 
 .exp2{
     width: 300px;
-    margin: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .img{
@@ -107,6 +117,7 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    margin-top: 30px;
 }
 #relatar1{
     display: flex;
@@ -131,25 +142,15 @@
 }
 .exp1{
     border: solid black 3px;
-    padding: 30px;
 }
 .exp2{
     border: solid black 3px;
-    padding: 30px;
 }
 .exp1 > h2{
     padding-bottom: 20px;
 }
-.exp1 > p{
-    padding-bottom: 30px;
-}
-.exp2 > h2{
-    padding-bottom: 20px;
-}
-.exp2 > p{
-    padding-bottom: 30px;
-}
-#download-link{
+
+#download1{
     display: flex;
     align-items: center;
 }
@@ -164,4 +165,51 @@
 #suporte1{
     display: flex;
     align-items: center;
+}
+
+#sptec{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+}
+
+#cont1{
+    padding: 20px;
+    background-color: rgba(99, 99, 255, 0.288);
+
+}
+
+#con{
+    background-color: red;
+    padding: 10px;
+    color: white;
+}
+
+#cont2{
+    padding: 20px;
+    background-color: rgba(255, 106, 106, 0.342);
+    height: 187px;
+}
+
+#relpro{
+    background-color: purple;
+    padding: 10px;
+    color: white;
+}
+
+#cont3{
+    padding: 20px;
+    background-color: rgba(133, 78, 133, 0.37)
+}
+
+#down{
+    background-color: brown;
+    padding: 10px;
+    color: white;
+}
+
+#cont4{
+    padding: 20px;
+    background-color: rgba(155, 88, 88, 0.363);
+    height: 151px;
 }
