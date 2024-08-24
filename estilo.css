@@ -41,7 +41,36 @@
     height: 100px;
     align-items: center;
 }
+.anuncio{
+    border: solid 3px black;
+    width: 900px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
 
+#texto-grupo{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.anuncio > h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#link-grupo{
+    margin: 20px;
+}
+
+#imganuncio{
+    width: 300px;
+}
+#anuncio1{
+    display: flex;
+    flex-direction: column;
+}
 .ft-perfil{
     height: 50px;
 }
@@ -67,5 +96,72 @@
 }
 
 .img{
-    width: 300px;
+    width: 57px;
+}
+#suporte1{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+#conectar1{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+#relatar1{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+#download1{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#download-link{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: solid black 2px;
+    background-color: aqua;
+    display: block;
+
+}
+.exp1{
+    border: solid black 3px;
+    padding: 30px;
+}
+.exp2{
+    border: solid black 3px;
+    padding: 30px;
+}
+.exp1 > h2{
+    padding-bottom: 20px;
+}
+.exp1 > p{
+    padding-bottom: 30px;
+}
+.exp2 > h2{
+    padding-bottom: 20px;
+}
+.exp2 > p{
+    padding-bottom: 30px;
+}
+#download-link{
+    display: flex;
+    align-items: center;
+}
+#relatar1{
+    display: flex;
+    align-items: center;
+}
+#conectar1{
+    display: flex;
+    align-items: center;
+}
+#suporte1{
+    display: flex;
+    align-items: center;
 }

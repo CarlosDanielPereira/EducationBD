@@ -33,13 +33,13 @@ h1{
     margin: 100px;
     gap: 30px;
 }
-#suporte > .passo1{
+#suporte > #passo1{
     border: solid 5px green;
 }
-#suporte > .passo2{
+#suporte > #passo2{
     border: solid 5px green;
 }
-#suporte > .passo3{
+#suporte > #passo3{
     border: solid 5px green;
 }
 h2{
@@ -50,8 +50,8 @@ p{
     font-size: 22px;
     padding: 15px;
 }
-
 footer{
+    color: white;
     background-color: green;
     padding: 40px;
     font-size: 16px;
