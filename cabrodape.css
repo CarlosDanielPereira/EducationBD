@@ -14,16 +14,14 @@
     height: 100px;
     align-items: center;
 }
-
-.cabecalho, footer{
-    background-color: green;
-}
-
 #imgtittle{
     padding-top: 12px;
     width: 650px;
 }
 
+.cabecalho, footer{
+    background-color: green;
+}
  /*Links para mudar a página*/
 #links-pag{
     display: flex;
