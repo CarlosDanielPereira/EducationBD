@@ -140,12 +140,7 @@ justify-content: center;
     display: block;
 
 }
-.exp1{
-    border: solid black 3px;
-}
-.exp2{
-    border: solid black 3px;
-}
+
 .exp1 > h2{
     padding-bottom: 20px;
 }
