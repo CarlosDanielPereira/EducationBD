@@ -7,6 +7,7 @@
 
 .anuncio{
     border: solid 3px black;
+    border-radius: 30px;
     width: 900px;
     padding: 20px;
     display: flex;
@@ -19,9 +20,9 @@
 
 }
 
-.anuncio > h2{
-    padding-top: 30px;
-    padding-bottom: 30px;
+#tittle-grupo{
+    padding-bottom: 15px;
+    padding-left: 30px;
 }
 
 #link-grupo{
@@ -74,12 +75,13 @@ justify-content: center;
 
 .explorar1{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    padding-top: 30px;
 }
 
 #explorar2{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .exp1{
@@ -124,11 +126,11 @@ justify-content: center;
     padding-bottom: 10px;
     padding-right: 20px;
     padding-left: 20px;
-    background-color: blue;
+    background-color: rgb(91, 137, 223);
     display: block;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    border: solid 1px blue;
+    border: solid 1px rgb(91, 137, 223);
     box-shadow: 3px 4px 4px 1px rgba(0, 0, 172, 0.507);
     color: white;
     text-decoration: none;
@@ -139,12 +141,12 @@ justify-content: center;
     padding-bottom: 10px;
     padding-right: 20px;
     padding-left: 20px;
-    background-color: red;
+    background-color: rgb(218, 142, 1);
     display: block;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    border: solid 1px red;
-    box-shadow: 3px 4px 4px 1px rgba(109, 0, 0, 0.507);
+    border: solid 1px rgb(218, 142, 1);
+    box-shadow: 3px 4px 4px 1px rgb(218, 142, 1);
     color: white;
     text-decoration: none;
 }
@@ -154,12 +156,12 @@ justify-content: center;
     padding-bottom: 10px;
     padding-right: 20px;
     padding-left: 20px;
-    background-color: brown;
+    background-color: rgb(100, 238, 100);
     display: block;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    border: solid 1px brown;
-    box-shadow: 3px 4px 4px 1px rgba(82, 21, 21, 0.39);
+    border: solid 1px rgb(100, 238, 100);
+    box-shadow: 3px 4px 4px 1px rgb(74, 230, 74);
     color: white;
     text-decoration: none;
 }
@@ -169,12 +171,12 @@ justify-content: center;
     padding-bottom: 10px;
     padding-right: 20px;
     padding-left: 20px;
-    background-color: purple;
+    background-color: rgb(226, 112, 71);
     display: block;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    border: solid 1px purple;
-    box-shadow: 3px 4px 4px 1px rgba(70, 0, 70, 0.411);
+    border: solid 1px rgb(226, 112, 71);
+    box-shadow: 3px 4px 4px 1px rgb(192, 100, 66);
     color: white;
     text-decoration: none;
 }
@@ -202,47 +204,47 @@ justify-content: center;
 
 /* Deixar as divs com conteúdo coloridas*/
 #sptec{
-    background-color: blue;
+    background-color: rgb(91, 137, 223);
     padding: 10px;
     color: white;
 }
 
 #cont1{
     padding: 20px;
-    background-color: rgba(99, 99, 255, 0.288);
+    background-color: rgb(143, 201, 255);
 }
 
 #con{
-    background-color: red;
+    background-color: rgb(218, 142, 1);
     padding: 10px;
     color: white;
 }
 
 #cont2{
     padding: 20px;
-    background-color: rgba(255, 106, 106, 0.342);
+    background-color: rgb(255, 211, 128);
     height: 187px;
 }
 
 #relpro{
-    background-color: purple;
+    background-color: rgb(226, 112, 71);
     padding: 10px;
     color: white;
 }
 
 #cont3{
     padding: 20px;
-    background-color: rgba(133, 78, 133, 0.37)
+    background-color: rgb(255, 186, 159);
 }
 
 #down{
-    background-color: brown;
+    background-color: rgb(100, 238, 100);
     padding: 10px;
     color: white;
 }
 
 #cont4{
     padding: 20px;
-    background-color: rgba(155, 88, 88, 0.363);
+    background-color: rgb(200, 235, 200);
     height: 151px;
 }
