@@ -39,10 +39,34 @@
     border-bottom-right-radius: 10px;
 }
 
+/*Rodape do site*/
+
 footer{
     color: white;
     background-color: rgb(104, 104, 104);
-    padding: 40px;
     font-size: 16px;
-    text-align: center;
+    padding: 10px;
+}
+
+.rodape{
+    display: flex;
+}
+.rodape > p{
+    align-items: center;
+}
+
+#logo{
+    flex-direction: column;
+    justify-content: center;
+}
+#logo > p{
+    font-size: 12px;
+}
+#logo > img{
+    justify-content: center;
+    width: 70px;
+}
+#nome-empresa{
+    height: 0;
+    width: 0;
 }
