@@ -22,37 +22,57 @@
     align-items: center;
     justify-content: space-around;
 }
-#carlos{
+
+.part{
     padding: 15px;
     display: flex;
     align-items: center;
     gap: 35px;
-    width: 100%;
     height: 100%;
+    justify-content: space-between;
+}
+
+#carlos{
+    width: 574.66px;
 }
 #gustavo{
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    gap: 35px;
-    width: 100%;
-    height: 100%;
+    width: 574.66px;
 }
-#nickolas{
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    gap: 35px;
-    width: 100%;
-    height: 100%;
-}
+
 h1{
     font-size: 55px;
     padding: 15px;
 }
-p{
+.nome{
     font-size: 35px;
 }
 img{
     width: 70px;
+}
+#sking, #skinn{
+    width: 70px;
+    height: 147px;
+}
+#skinc{
+    height: 140px;
+    width: 117px;
+}
+/*Informações pessoais*/
+#infc{
+    display: none;
+}
+#infg{
+    display: none;
+}
+#infn{
+    display: none;
+}
+#carlos:hover #infc{
+    display: block;
+}
+#gustavo:hover #infg{
+    display: block;
+}
+#nickolas:hover #infn{
+    display: block;
 }
