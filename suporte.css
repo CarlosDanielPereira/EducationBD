@@ -15,7 +15,7 @@
     padding-right: 35px;
     display: flex;
     justify-content: space-between;
-   background-color: rgb(104, 104, 104);
+   background-color: rgb(67, 110, 67);
     color: white;
     height: 100px;
     align-items: center;
@@ -57,15 +57,15 @@ h2{
     padding-bottom: 55px;
 }
 #suporte > #passo1{
-    border: solid 5px rgb(104, 104, 104);
+    border: solid 5px rgb(67, 110, 67);
     border-radius: 20px;
 }
 #suporte > #passo2{
-    border: solid 5px rgb(104, 104, 104);
+    border: solid 5px rgb(67, 110, 67);
     border-radius: 20px;
 }
 #suporte > #passo3{
-    border: solid 5px rgb(104, 104, 104);
+    border: solid 5px rgb(67, 110, 67);
     border-radius: 20px;
 }
 h3{
@@ -98,7 +98,7 @@ p{
 }
 footer{
     color: white;
-    background-color: rgb(104, 104, 104);
+    background-color: rgb(67, 110, 67);
     padding: 40px;
     font-size: 16px;
     text-align: center;
