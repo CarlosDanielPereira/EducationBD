@@ -134,6 +134,13 @@ justify-content: center;
     box-shadow: 3px 4px 4px 1px rgba(0, 0, 172, 0.507);
     color: white;
     text-decoration: none;
+    transition: 130ms;
+}
+#sup:hover{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 #conec{
@@ -149,6 +156,13 @@ justify-content: center;
     box-shadow: 3px 4px 4px 1px rgb(218, 142, 1);
     color: white;
     text-decoration: none;
+    transition: 130ms;
+}
+#conec:hover{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 #download-link{
@@ -164,6 +178,13 @@ justify-content: center;
     box-shadow: 3px 4px 4px 1px rgb(74, 230, 74);
     color: white;
     text-decoration: none;
+    transition: 130ms;
+}
+#download-link:hover{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 #rel{
@@ -179,6 +200,13 @@ justify-content: center;
     box-shadow: 3px 4px 4px 1px rgb(192, 100, 66);
     color: white;
     text-decoration: none;
+    transition: 130ms;
+}
+#rel:hover{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .exp1 > h2{
