@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 100px;
+    align-items: center;
+}
+#imgtittle{
+    padding-top: 12px;
+    width: 650px;
+}
+
+.cabecalho, footer{
+    background-color: rgb(59, 138, 59);
+}
+ /*Links para mudar a página*/
+#links-pag{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.l-pag{
+    background-color: rgb(0, 182, 0);
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    margin-top: 0px;
+    padding: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/*Rodape do site*/
+
+footer{
+    color: white;
+    background-color: rgb(0, 182, 0);
+    font-size: 16px;
+    padding: 10px;
+}
+
+.rodape{
+    display: flex;
+}
+.rodape > p{
+    align-items: center;
+}
+
+#logo{
+    flex-direction: column;
+    justify-content: center;
+}
+#logo > p{
+    font-size: 12px;
+}
+#logo > img{
+    justify-content: center;
+    width: 70px;
+}
+#nome-empresa{
+    height: 0;
+    width: 0;
+}

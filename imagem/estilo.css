@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.anuncio{
+    border: hidden 3px;
+    background: url("imagem/fundoAnuncio.png");
+    border-radius: 30px;
+    padding-top: 30px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+.anuncio-geral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#texto-grupo{
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#tittle-grupo{
+    color: whitesmoke;
+    padding-bottom: 15px;
+    padding-left: 30px;
+}
+
+#link-grupo{
+    margin: 20px;
+    width: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgb(95, 180, 95);
+    display: block;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: solid 1px rgb(95, 180, 95);
+    box-shadow: 3px 4px 4px 1px rgb(88, 138, 88);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: 130ms;
+}
+#link-grupo:hover{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px
+}
+
+#imganuncio{
+    width: 300px;
+}
+#anuncio1{
+    display: flex;
+    flex-direction: column;
+}
+
+#anuncio2{
+display: flex;
+justify-content: center;
+
+}
+
+#prin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#corpo{
+    width: 900px;
+}
+
+.perguntas{
+    list-style: none;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+#comopode{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.ft-perfil{
+    height: 50px;
+}
+
+.explorar1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+#explorar2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.exp1{
+    width: 300px;
+}
+
+.exp2{
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.img{
+    width: 57px;
+}
+/*Organizar as divs de conteúdo*/
+#suporte1{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+#conectar1{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 30px;
+}
+#relatar1{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+#download1{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 17px;
+}
+/* Personalizar os Links*/
+#sup{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgb(91, 137, 223);
+    display: block;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: solid 1px rgb(91, 137, 223);
+    box-shadow: 3px 4px 4px 1px rgba(0, 0, 172, 0.507);
+    color: white;
+    text-decoration: none;
+    transition: 130ms;
+}
+#sup:hover{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+#conec{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgb(218, 142, 1);
+    display: block;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: solid 1px rgb(218, 142, 1);
+    box-shadow: 3px 4px 4px 1px rgb(218, 142, 1);
+    color: white;
+    text-decoration: none;
+    transition: 130ms;
+}
+#conec:hover{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+#download-link{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgb(100, 238, 100);
+    display: block;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: solid 1px rgb(100, 238, 100);
+    box-shadow: 3px 4px 4px 1px rgb(74, 230, 74);
+    color: white;
+    text-decoration: none;
+    transition: 130ms;
+}
+#download-link:hover{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+#rel{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgb(226, 112, 71);
+    display: block;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: solid 1px rgb(226, 112, 71);
+    box-shadow: 3px 4px 4px 1px rgb(192, 100, 66);
+    color: white;
+    text-decoration: none;
+    transition: 130ms;
+}
+#rel:hover{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.exp1 > h2{
+    padding-bottom: 20px;
+}
+
+#download1{
+    display: flex;
+    align-items: center;
+}
+#relatar1{
+    display: flex;
+    align-items: center;
+}
+#conectar1{
+    display: flex;
+    align-items: center;
+}
+#suporte1{
+    display: flex;
+    align-items: center;
+}
+
+/* Deixar as divs com conteúdo coloridas*/
+#sptec{
+    background-color: rgb(91, 137, 223);
+    padding: 10px;
+    color: white;
+}
+
+#cont1{
+    padding: 20px;
+    background-color: rgb(143, 201, 255);
+}
+
+#con{
+    background-color: rgb(218, 142, 1);
+    padding: 10px;
+    color: white;
+}
+
+#cont2{
+    padding: 20px;
+    background-color: rgb(255, 211, 128);
+    height: 187px;
+}
+
+#relpro{
+    background-color: rgb(226, 112, 71);
+    padding: 10px;
+    color: white;
+}
+
+#cont3{
+    padding: 20px;
+    background-color: rgb(255, 186, 159);
+}
+
+#down{
+    background-color: rgb(100, 238, 100);
+    padding: 10px;
+    color: white;
+}
+
+#cont4{
+    padding: 20px;
+    background-color: rgb(200, 235, 200);
+    height: 151px;
+}
