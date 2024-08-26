@@ -6,27 +6,57 @@
 }
 
 .anuncio{
-    border: solid 3px black;
+    border: hidden 3px;
+    background: url("imagem/fundoAnuncio.png");
     border-radius: 30px;
-    width: 900px;
-    padding: 20px;
+    padding-top: 30px;
+    width: 800px;
     display: flex;
     justify-content: center;
 }
 
+.anuncio-geral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #texto-grupo{
+    color: white;
     display: flex;
     flex-direction: column;
 
 }
 
 #tittle-grupo{
+    color: whitesmoke;
     padding-bottom: 15px;
     padding-left: 30px;
 }
 
 #link-grupo{
     margin: 20px;
+    width: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgb(95, 180, 95);
+    display: block;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: solid 1px rgb(95, 180, 95);
+    box-shadow: 3px 4px 4px 1px rgb(88, 138, 88);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: 130ms;
+}
+#link-grupo:hover{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px
 }
 
 #imganuncio{
@@ -137,8 +167,8 @@ justify-content: center;
     transition: 130ms;
 }
 #sup:hover{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-right: 30px;
     padding-left: 30px;
 }
@@ -159,8 +189,8 @@ justify-content: center;
     transition: 130ms;
 }
 #conec:hover{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-right: 30px;
     padding-left: 30px;
 }
@@ -181,8 +211,8 @@ justify-content: center;
     transition: 130ms;
 }
 #download-link:hover{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-right: 30px;
     padding-left: 30px;
 }
@@ -203,8 +233,8 @@ justify-content: center;
     transition: 130ms;
 }
 #rel:hover{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-right: 30px;
     padding-left: 30px;
 }

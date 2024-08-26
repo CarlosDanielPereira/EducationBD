@@ -20,7 +20,7 @@
 }
 
 .cabecalho, footer{
-    background-color: rgb(104, 104, 104);
+    background-color: rgb(59, 138, 59);
 }
  /*Links para mudar a página*/
 #links-pag{
@@ -30,7 +30,7 @@
 }
 
 .l-pag{
-    background-color: rgb(104, 104, 104);
+    background-color: rgb(0, 182, 0);
     color: white;
     text-decoration: none;
     margin: 10px;
@@ -44,7 +44,7 @@
 
 footer{
     color: white;
-    background-color: rgb(104, 104, 104);
+    background-color: rgb(0, 182, 0);
     font-size: 16px;
     padding: 10px;
 }
