@@ -27,13 +27,14 @@
     padding: 15px;
     display: flex;
     align-items: center;
-    gap: 35px;
     height: 100%;
     justify-content: space-between;
 }
 
 #carlos{
     width: 574.66px;
+    height: 100px;
+    margin-bottom: 50px;
 }
 #gustavo{
     width: 574.66px;
@@ -54,8 +55,8 @@ img{
     height: 147px;
 }
 #skinc{
-    height: 140px;
-    width: 117px;
+    width: 80px;
+    
 }
 /*Informações pessoais*/
 #infc{
