@@ -24,17 +24,35 @@
 .ft-perfil:hover #links-pag{
     display: block;
 }
+.pag-1:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.2);
+}
 .ft-perfil{
+    height: 30px;
     align-items: center;
     display: flex;
     gap: 20px;
+    transition: 130ms;
+}
+.ft-perfil:hover{
+    height: 35px;
+}
+
+.ft-cadastro{
+    height: 40px;
+    transition: 130ms;
+}
+.ft-cadastro:hover{
+    height: 45px;
 }
 
 .cabecalho, footer{
     background-color: rgb(67, 110, 67);
 }
 
-.l-pag{
+.pag-1{
     background-color: transparent;
     color: white;
     text-decoration: none;

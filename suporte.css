@@ -10,23 +10,6 @@
     src: url(minecraft/Minecraft.ttf);
 }
 
-.cabecalho{
-    padding-left: 35px;
-    padding-right: 35px;
-    display: flex;
-    justify-content: space-between;
-   background-color: rgb(67, 110, 67);
-    color: white;
-    height: 100px;
-    align-items: center;
-}
-#imgtittle{
-    padding-top: 12px;
-    width: 650px;
-}
-.ft-perfil{
-    height: 50px;
-}
 h1{
     text-align: center;
     font-size: 40px;

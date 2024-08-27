@@ -100,10 +100,6 @@ justify-content: center;
     align-items: center;
 }
 
-.ft-perfil{
-    height: 50px;
-}
-
 .explorar1{
     display: flex;
     justify-content: space-evenly;
