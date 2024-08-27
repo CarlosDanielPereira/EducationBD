@@ -17,6 +17,7 @@
 #skins{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 h1{
@@ -39,6 +40,7 @@ img{
 }
 
 /* Criar a janela com informações*/
+/*Carlos*/
 #carlos{
     display: flex;
     position: relative;
@@ -86,8 +88,8 @@ img{
     top: 130px;
     height: 250px;
 }
-
-#carlos{
+/*Gustavo*/
+#gustavo{
     display: flex;
     position: relative;
     border: solid blue 2px;
@@ -96,31 +98,34 @@ img{
     width: 400px;
     justify-content: center;
 }
-#carlos #imgc{
+
+#imgg{
+    width: 150px;
+}
+#gustavo #imgg{
     position: absolute;
     height: auto;
     top: 0px;
     height: auto;
     transition: 0.5s;
 }
-#carlos:hover{
+#gustavo:hover{
     height: 300px;
     transition: 0.5s;
 }
 
-#carlos:hover #imgc{
+#gustavo:hover #imgg{
     top: -50px;
     scale: 0.75;
 }
 
-
-#carlos #imgc img{
+#gustavo #imgg img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-#carlos #inf-carlos{
+#gustavo #inf-gustavo{
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -130,7 +135,60 @@ img{
     overflow: hidden;
     transition: 0.5s;
 }
-#carlos:hover #inf-carlos{
+#gustavo:hover #inf-gustavo{
+    top: 130px;
+    height: 250px;
+}
+
+/*Nickolas*/
+#nickolas{
+    display: flex;
+    position: relative;
+    border: solid blue 2px;
+    height: 290px;
+    transition: 0.5s;
+    width: 400px;
+    justify-content: center;
+}
+
+#imgn{
+    width: 150px;
+}
+#nickolas #imgn{
+    position: absolute;
+    height: auto;
+    top: 0px;
+    height: auto;
+    transition: 0.5s;
+}
+#nickolas:hover{
+    height: 300px;
+    transition: 0.5s;
+}
+
+#nickolas:hover #imgn{
+    top: -50px;
+    scale: 0.75;
+}
+
+
+#nickolas #imgn img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#nickolas #inf-nickolas{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    height: 40px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+#nickolas:hover #inf-nickolas{
     top: 130px;
     height: 250px;
 }

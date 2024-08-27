@@ -57,6 +57,7 @@ footer{
 
 .rodape{
     display: flex;
+    margin-top: 50px;
 }
 .rodape > p{
     align-items: center;
