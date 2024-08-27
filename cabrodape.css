@@ -18,26 +18,32 @@
     padding-top: 12px;
     width: 650px;
 }
+#links-pag{
+    display: none;
+}
+.ft-perfil:hover #links-pag{
+    display: block;
+}
+.ft-perfil{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
 
 .cabecalho, footer{
     background-color: rgb(67, 110, 67);
 }
- /*Links para mudar a página*/
-#links-pag{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-}
 
 .l-pag{
-    background-color: rgb(67, 110, 67);
+    background-color: transparent;
     color: white;
     text-decoration: none;
-    margin: 10px;
-    margin-top: 0px;
-    padding: 5px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    justify-content: space-around;
 }
 
 /*Rodape do site*/
