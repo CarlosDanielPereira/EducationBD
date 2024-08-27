@@ -8,36 +8,15 @@
     font-family: 'Minecraft';
     src: url(minecraft/Minecraft.ttf);
 }
-.creditos{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#name-creditos{
+
+#participantes{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-around;
+    text-align: center;
 }
-
-.part{
-    padding: 15px;
+#skins{
     display: flex;
-    align-items: center;
-    height: 100%;
-    justify-content: space-between;
-}
-
-#carlos{
-    width: 574.66px;
-    height: 100px;
-    margin-bottom: 50px;
-}
-#gustavo{
-    width: 574.66px;
+    flex-direction: row;
 }
 
 h1{
@@ -45,7 +24,7 @@ h1{
     padding: 15px;
 }
 .nome{
-    font-size: 35px;
+    font-size: 33px;
 }
 img{
     width: 70px;
@@ -58,22 +37,100 @@ img{
     width: 80px;
     
 }
-/*Informações pessoais*/
-#infc{
-    display: none;
+
+/* Criar a janela com informações*/
+#carlos{
+    display: flex;
+    position: relative;
+    border: solid blue 2px;
+    height: 290px;
+    transition: 0.5s;
+    width: 400px;
+    justify-content: center;
 }
-#infg{
-    display: none;
+#carlos #imgc{
+    position: absolute;
+    height: auto;
+    top: 0px;
+    height: auto;
+    transition: 0.5s;
 }
-#infn{
-    display: none;
+#carlos:hover{
+    height: 300px;
+    transition: 0.5s;
 }
-#carlos:hover #infc{
-    display: block;
+
+#carlos:hover #imgc{
+    top: -50px;
+    scale: 0.75;
 }
-#gustavo:hover #infg{
-    display: block;
+
+
+#carlos #imgc img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
-#nickolas:hover #infn{
-    display: block;
+
+#carlos #inf-carlos{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    height: 40px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+#carlos:hover #inf-carlos{
+    top: 130px;
+    height: 250px;
+}
+
+#carlos{
+    display: flex;
+    position: relative;
+    border: solid blue 2px;
+    height: 290px;
+    transition: 0.5s;
+    width: 400px;
+    justify-content: center;
+}
+#carlos #imgc{
+    position: absolute;
+    height: auto;
+    top: 0px;
+    height: auto;
+    transition: 0.5s;
+}
+#carlos:hover{
+    height: 300px;
+    transition: 0.5s;
+}
+
+#carlos:hover #imgc{
+    top: -50px;
+    scale: 0.75;
+}
+
+
+#carlos #imgc img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#carlos #inf-carlos{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    height: 40px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+#carlos:hover #inf-carlos{
+    top: 130px;
+    height: 250px;
 }
