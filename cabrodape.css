@@ -72,27 +72,39 @@ footer{
     font-size: 16px;
     padding: 10px;
 }
-
 .rodape{
-    display: flex;
-    margin-top: 50px;
+    padding: 10px;
+    flex-direction: column;
+    text-align: center;
 }
-.rodape > p{
-    align-items: center;
+#acessar{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+#acessar1{
+    text-decoration: none;
+    color: white;
 }
 
-#logo{
-    flex-direction: column;
-    justify-content: center;
+#text{
+    font-size: 20px;
+    transition: 130ms;
 }
-#logo > p{
-    font-size: 12px;
+#text:hover{
+    font-size: 25px;
 }
+
 #logo > img{
+    padding-top: 15px;
     justify-content: center;
-    width: 70px;
+    width: 45px;
 }
-#nome-empresa{
-    height: 0;
-    width: 0;
+#copy{
+    font-size: 16px;
+}
+p{
+    font-size: 15px;
 }
