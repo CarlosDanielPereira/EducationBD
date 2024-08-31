@@ -73,6 +73,12 @@ display: flex;
 justify-content: center;
 
 }
+.title{
+    padding-bottom: 15px;
+}
+.txt-abrivel > p{
+    font-size: 18px;
+}
 
 #prin{
     display: flex;
