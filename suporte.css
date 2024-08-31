@@ -57,7 +57,7 @@ h3{
     font-size: 33px;
     text-align: center;
 }
-p{
+#text-geral{
     font-size: 17px;
     padding: 15px;
 }
@@ -78,11 +78,4 @@ p{
     align-items: center;
     padding: 20px;
     border-radius: 29px;
-}
-footer{
-    color: white;
-    background-color: rgb(67, 110, 67);
-    padding: 40px;
-    font-size: 16px;
-    text-align: center;
 }
