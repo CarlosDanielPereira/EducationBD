@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+
+
 .cabecalho{
     padding-left: 15px;
     padding-right: 15px;
@@ -13,10 +15,14 @@
     color: white;
     height: 100px;
     align-items: center;
+    position: relative;
 }
 #imgtittle{
     padding-top: 12px;
     width: 650px;
+    position: absolute;
+    margin-left: 33%;
+    margin-right: 50%;
 }
 #links-pag{
     display: none;
@@ -33,7 +39,6 @@
     height: 30px;
     align-items: center;
     display: flex;
-    gap: 20px;
     transition: 130ms;
 }
 .ft-perfil:hover{
@@ -49,7 +54,7 @@
 }
 
 .cabecalho, footer{
-    background-color: rgb(67, 110, 67);
+    background-color: #436e43;
 }
 
 .pag-1{
@@ -70,6 +75,7 @@ footer{
     color: white;
     background-color: rgb(67, 110, 67);
     font-size: 16px;
+    bottom: 0;
 }
 .rodape{
     flex-direction: column;
