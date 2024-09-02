@@ -92,59 +92,58 @@ h1{
     height: 450px;
 }
 /*Gustavo*/
-#gustavo{
-    display: flex;
-    position: relative;
-    border-radius: 8px;
-    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
-                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
-    height: 290px;
-    transition: 0.5s;
-    width: 400px;
-    justify-content: center;
-}
-
-#imgg{
-    width: 150px;
-}
-#gustavo #imgg{
-    position: absolute;
-    height: auto;
-    top: 0px;
-    height: auto;
-    transition: 0.5s;
-}
-#gustavo:hover{
-    height: 300px;
-    transition: 0.5s;
-}
-
-#gustavo:hover #imgg{
-    top: -50px;
-    scale: 0.75;
-}
-
-#gustavo #imgg img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-#gustavo #inf-gustavo{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 200px;
-    text-align: center;
-    height: 40px;
-    overflow: hidden;
-    transition: 0.5s;
-}
-#gustavo:hover #inf-gustavo{
-    top: 130px;
-    height: 250px;
-}
-
+    #gustavo{
+        display: flex;
+        position: relative;
+        border-radius: 8px;
+        box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+        height: 290px;
+        transition: 0.5s;
+        width: 400px;
+        justify-content: center;
+    }
+    #imgg{
+        width: 150px;
+    }
+    #gustavo #imgg{
+        position: absolute;
+        height: auto;
+        top: 0px;
+        height: auto;
+        transition: 0.5s;
+    }
+    #gustavo:hover{
+        height: 450px;
+        transition: 0.5s;
+    }
+    
+    #gustavo:hover #imgg{
+        top: -50px;
+        scale: 0.75;
+    }
+    
+    
+    #gustavo #imgg img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    #gustavo #inf-gustavo{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 200px;
+        text-align: center;
+        height: 36px;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    #gustavo:hover #inf-gustavo{
+        top: 130px;
+        height: 450px;
+    }
 /*Nickolas*/
 #nickolas{
     display: flex;
@@ -157,7 +156,6 @@ h1{
     width: 400px;
     justify-content: center;
 }
-
 #imgn{
     width: 150px;
 }
@@ -169,7 +167,7 @@ h1{
     transition: 0.5s;
 }
 #nickolas:hover{
-    height: 300px;
+    height: 450px;
     transition: 0.5s;
 }
 
@@ -191,13 +189,13 @@ h1{
     position: absolute;
     top: 200px;
     text-align: center;
-    height: 40px;
+    height: 36px;
     overflow: hidden;
     transition: 0.5s;
 }
 #nickolas:hover #inf-nickolas{
     top: 130px;
-    height: 250px;
+    height: 450px;
 }
 
 .redes{
