@@ -61,7 +61,7 @@ h1{
     transition: 0.5s;
 }
 #carlos:hover{
-    height: 450px;
+    height: 490px;
     transition: 0.5s;
 }
 
@@ -89,7 +89,7 @@ h1{
 }
 #carlos:hover #inf-carlos{
     top: 130px;
-    height: 450px;
+    height: 490px;
 }
 /*Gustavo*/
     #gustavo{
@@ -114,7 +114,7 @@ h1{
         transition: 0.5s;
     }
     #gustavo:hover{
-        height: 450px;
+        height: 490px;
         transition: 0.5s;
     }
     
@@ -167,7 +167,7 @@ h1{
     transition: 0.5s;
 }
 #nickolas:hover{
-    height: 450px;
+    height: 490px;
     transition: 0.5s;
 }
 
